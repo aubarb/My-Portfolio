@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 
 const skills = ["HTML", "CSS", "JAVASCRIPT", "REACT", "REDUX", "NODEJS", "EXPRESS", "GITHUB", "VSC",  "ADWORDS", "ANALYTICS", "OFFICE", "PHOTOSHOP", "LIGHTROOM", "FINALCUT"];
 
