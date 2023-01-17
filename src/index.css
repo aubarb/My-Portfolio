@@ -1,19 +1,5 @@
 /* 
 
-TO DO
--Refactor
--Title, icon and other Head elements
--mobile responsive
-
-FONTS
-font-family: 'Alexandria', sans-serif;
-Weight: 200, 300, 400
-font-family: 'Kanit', sans-serif;
-Weigth: 400, 500, 600, 700
-font-family: 'Raleway', sans-serif;
-Weigth: 400
-*/
-
 /* ----- UNIVERSAL STYLE ------ */
 
 :root {
@@ -25,7 +11,7 @@ Weigth: 400
     --glowing-color: #ffebcd;
     --link-color: rgb(122, 228, 203);
     --title-font: 'Kanit', sans-serif;
-    --text-font: 'Raleway', sans-serif;
+    --text-font: 'Titillium Web', sans-serif;
     --light-font: 'Alexandria', sans-serif;
     font-size: calc(15px + 0.390625vw);
     background: var(--background-color);
@@ -82,15 +68,18 @@ body p {
     Font-Family: var(--text-font);
 }
 .link {
-   font-size: 0.9rem;
-   font-family: var(--light-font);
-   font-weight: 200;
-   text-decoration: none;
-   display:inline-block;
-   padding: 0.3rem 0;
+    color: var(--link-color);
+    font-size: 0.9rem;
+    font-family: var(--light-font);
+    font-weight: 200;
+    text-decoration: none;
+    display:inline-block;
+    padding: 0.3rem 0;
 }
 a:hover {
     cursor: pointer;
+    text-decoration: underline;
+    transition: 0.5s;
 }
 body::-webkit-scrollbar {
     width: 6px;
