@@ -1,4 +1,19 @@
 import React, { useState } from "react";
+import { initializeApp } from "firebase/app";
+import { getAnalytics } from "firebase/analytics";
+
+const firebaseConfig = {
+  apiKey: "AIzaSyDBcieDb9h9S5kq8LcC2AwH6HovSSeXmcs",
+  authDomain: "my-portfolio-ee94b.firebaseapp.com",
+  projectId: "my-portfolio-ee94b",
+  storageBucket: "my-portfolio-ee94b.appspot.com",
+  messagingSenderId: "1936602066",
+  appId: "1:1936602066:web:bbe347c033cf02e088ce0b",
+  measurementId: "G-N4CRMNC15R"
+};
+
+const app = initializeApp(firebaseConfig);
+const analytics = getAnalytics(app);
 
 const skills = [
   "HTML",
@@ -40,7 +55,7 @@ function App() {
         </h1>
         <h2 className="hidden visible">
           I am a <span>manager</span>, problem <span>solver</span> and
-          full-stack <span>developper</span>
+          full-stack <span>developer</span>
         </h2>
         <button>
           <a href="#sections">
