@@ -131,7 +131,6 @@ body::-webkit-scrollbar-thumb {
   border: 2px solid;
   color: var(--highlight-text-color);
   animation: titleappear 700ms 1000ms backwards;
-  padding: 0.6rem;
 }
 #home button:hover {
   color: var(--link-color);
@@ -146,6 +145,9 @@ body::-webkit-scrollbar-thumb {
 #home button a {
   color: var(--link-color);
   text-decoration: none;
+}
+#home button a p {
+  margin: 0.3rem;
 }
 #home span {
   color: var(--highlight-text-color);
@@ -202,28 +204,6 @@ body::-webkit-scrollbar-thumb {
   }
   #navbar .logo {
     padding: 0 1rem;
-  }
-}
-@media only screen and (max-width: 400px) {
-  #navbar {
-    height: auto;
-    padding: 0rem 0;
-    display: flex;
-    flex-direction: column-reverse;
-    align-items: center;
-  }
-  #navbar .logo {
-    display: none;
-  }
-  #navbar ul {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-right: 0;
-  }
-  #navbar li {
-    padding: 0.3rem 0;
   }
 }
 
