@@ -210,11 +210,41 @@ function App() {
               <div className="project-info">
                 <h4>E-Commerce App</h4>
                 <p>
-                  Mock an online store where a customer can register/login, edit
-                  its profile, browse products per categories or search, add
-                  items to cart, checkout, pay and see previous orders.
+                  E-commerce platform prototype with complete user flow from
+                  registration to order history
                 </p>
-                <p>JS, REACT, RECOIL, EXPRESS, NODEJS, POSTGRESQL, BOOTSTRAP</p>
+                <div className="skills">
+                  <img
+                    className="skillIcon"
+                    src={require(`./resources/img/JAVASCRIPT.png`)}
+                    alt="JS logo"
+                  />
+                  <img
+                    className="skillIcon"
+                    src={require(`./resources/img/BOOTSTRAP.png`)}
+                    alt="JS logo"
+                  />
+                  <img
+                    className="skillIcon"
+                    src={require(`./resources/img/REACT.png`)}
+                    alt="JS logo"
+                  />
+                  <img
+                    className="skillIcon"
+                    src={require(`./resources/img/EXPRESS.png`)}
+                    alt="JS logo"
+                  />
+                  <img
+                    className="skillIcon"
+                    src={require(`./resources/img/NODEJS.png`)}
+                    alt="JS logo"
+                  />
+                  <img
+                    className="skillIcon"
+                    src={require(`./resources/img/POSTGRESQL.png`)}
+                    alt="JS logo"
+                  />
+                </div>
                 <a
                   className="link"
                   href="https://ecommerce-eb562.web.app/"
@@ -225,30 +255,149 @@ function App() {
                 </a>
                 <a
                   className="link"
-                  href="https://github.com/jisokoo/ecommerce"
+                  href="https://github.com/aubar/ecommerce"
                   target="_blank"
                   rel="noreferrer"
                 >
                   Check Code on Github
                 </a>
               </div>
-              <img
-                alt="E-Commerce preview preview"
-                src={require("./resources/img/Ecommerce.gif")}
-              />
+              <video className="project-video" autoPlay loop muted>
+                <source
+                  src={require("./resources/portfolio/Ecommerce.mp4")}
+                  type="video/mp4"
+                />
+              </video>
             </div>
             <div className="project-box">
-              <img
-                alt="Reddit lite preview"
-                src={require("./resources/img/MyRedditLite.gif")}
-              />
+              <video className="project-video" autoPlay loop muted>
+                <source
+                  src={require("./resources/portfolio/ChoquelMarketing.mp4")}
+                  type="video/mp4"
+                />
+              </video>
+              <div className="project-info">
+                <h4>Choquel Marketing</h4>
+                <p>
+                  Made for Choquel Marketing, a digital marketing company based
+                  in France.
+                </p>
+                <div className="skills">
+                  <img
+                    className="skillIcon"
+                    src={require(`./resources/img/HTML.png`)}
+                    alt="JS logo"
+                  />
+                  <img
+                    className="skillIcon"
+                    src={require(`./resources/img/CSS.png`)}
+                    alt="JS logo"
+                  />
+                  <img
+                    className="skillIcon"
+                    src={require(`./resources/img/BOOTSTRAP.png`)}
+                    alt="JS logo"
+                  />
+                </div>
+                <a className="link" href="https://choquel-marketing.com/">
+                  Check Website
+                </a>
+                <a
+                  className="link"
+                  href="https://github.com/aubar/choquel-marketing"
+                >
+                  Check Code on Github
+                </a>
+              </div>
+            </div>
+            <div className="project-box reverse">
+              <div className="project-info">
+                <h4>Chat App</h4>
+                <p>
+                  Real-time chat App built using Firebase Authentication and
+                  Storage. Search for Ori if you want to send me a message!
+                </p>
+                <div className="skills">
+                  <img
+                    className="skillIcon"
+                    src={require(`./resources/img/TYPESCRIPT.png`)}
+                    alt="JS logo"
+                  />
+                  <img
+                    className="skillIcon"
+                    src={require(`./resources/img/BOOTSTRAP.png`)}
+                    alt="JS logo"
+                  />
+                  <img
+                    className="skillIcon"
+                    src={require(`./resources/img/REACT.png`)}
+                    alt="JS logo"
+                  />
+                  <img
+                    className="skillIcon"
+                    src={require(`./resources/img/FIREBASE.png`)}
+                    alt="JS logo"
+                  />
+                </div>
+                <a
+                  className="link"
+                  href="https://ts-react-chat.web.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Check Website
+                </a>
+                <a
+                  className="link"
+                  href="https://github.com/aubar/TS-React-Chat"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Check Code on Github
+                </a>
+              </div>
+              <video className="project-video" autoPlay loop muted>
+                <source
+                  src={require("./resources/portfolio/reactChat.mp4")}
+                  type="video/mp4"
+                />
+              </video>
+            </div>
+            <div className="project-box">
+              <video className="project-video" autoPlay loop muted>
+                <source
+                  src={require("./resources/portfolio/MyRedditLite.mp4")}
+                  type="video/mp4"
+                />
+              </video>
               <div className="project-info">
                 <h4>My Reddit Light</h4>
                 <p>
-                  A light version of the Reddit website made to fit my needs and
-                  interests
+                  Using reddit API I made light version of the platform to fit
+                  my needs and interests
                 </p>
-                <p>HTML, CSS, JS & REACT</p>
+                <div className="skills">
+                  <img
+                    className="skillIcon"
+                    src={require(`./resources/img/HTML.png`)}
+                    alt="JS logo"
+                  />
+                  <img
+                    className="skillIcon"
+                    src={require(`./resources/img/CSS.png`)}
+                    alt="JS logo"
+                  />
+                  <img
+                    className="skillIcon"
+                    src={require(`./resources/img/JAVASCRIPT.png`)}
+                    alt="JS logo"
+                  />
+                  <img
+                    className="skillIcon"
+                    src={require(`./resources/img/REACT.png`)}
+                    alt="JS logo"
+                  />
+                </div>
                 <a
                   className="link"
                   href="https://my-reddit-l.web.app/"
@@ -259,7 +408,7 @@ function App() {
                 </a>
                 <a
                   className="link"
-                  href="https://github.com/jisokoo/My-Reddit-Lite"
+                  href="https://github.com/aubar/My-Reddit-Lite"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -271,7 +420,28 @@ function App() {
               <div className="project-info">
                 <h4>Tenzies</h4>
                 <p>A little dice game</p>
-                <p>HTML, CSS, JS & REACT</p>
+                <div className="skills">
+                  <img
+                    className="skillIcon"
+                    src={require(`./resources/img/HTML.png`)}
+                    alt="JS logo"
+                  />
+                  <img
+                    className="skillIcon"
+                    src={require(`./resources/img/CSS.png`)}
+                    alt="JS logo"
+                  />
+                  <img
+                    className="skillIcon"
+                    src={require(`./resources/img/JAVASCRIPT.png`)}
+                    alt="JS logo"
+                  />
+                  <img
+                    className="skillIcon"
+                    src={require(`./resources/img/REACT.png`)}
+                    alt="JS logo"
+                  />
+                </div>
                 <a
                   className="link"
                   href="https://tenzies-79b6c.web.app/"
@@ -282,7 +452,7 @@ function App() {
                 </a>
                 <a
                   className="link"
-                  href="https://github.com/jisokoo/Tenzies"
+                  href="https://github.com/aubar/Tenzies"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -290,36 +460,13 @@ function App() {
                 </a>
               </div>
               <img
+                className="project-video"
                 alt="tenzie preview"
-                src={require("./resources/img/Tenzie.gif")}
+                src={require("./resources/portfolio/Tenzie.gif")}
               />
-            </div>
-            <div className="project-box">
-              <img
-                alt="Choquel marketing preview"
-                src={require("./resources/img/ChoquelMarketing.gif")}
-              />
-              <div className="project-info">
-                <h4>Choquel Marketing</h4>
-                <p>
-                  This is the website for Choquel Marketing, a Digital Marketing
-                  company based in France.
-                </p>
-                <p>HTML & CSS</p>
-                <a className="link" href="https://choquel-marketing.com/">
-                  Check Website
-                </a>
-                <a
-                  className="link"
-                  href="https://github.com/jisokoo/choquel-marketing"
-                >
-                  Check Code on Github
-                </a>
-              </div>
             </div>
           </div>
         </section>
-
         <section id="contact">
           <h3>Let's get in touch: </h3>
           <div className="contact-options">
@@ -332,7 +479,7 @@ function App() {
                 alt="telegram"
               />
             </a>
-            <a href="https://github.com/jisokoo">
+            <a href="https://github.com/aubarb">
               <img
                 src={require("./resources/img/GITHUBwhite.png")}
                 alt="github"
