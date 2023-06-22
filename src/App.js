@@ -255,7 +255,7 @@ function App() {
                 </a>
                 <a
                   className="link"
-                  href="https://github.com/aubar/ecommerce"
+                  href="https://github.com/aubarb/ecommerce"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -304,7 +304,7 @@ function App() {
                 </a>
                 <a
                   className="link"
-                  href="https://github.com/aubar/choquel-marketing"
+                  href="https://github.com/aubarb/choquel-marketing"
                 >
                   Check Code on Github
                 </a>
@@ -349,7 +349,7 @@ function App() {
                 </a>
                 <a
                   className="link"
-                  href="https://github.com/aubar/TS-React-Chat"
+                  href="https://github.com/aubarb/TS-React-Chat"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -408,7 +408,7 @@ function App() {
                 </a>
                 <a
                   className="link"
-                  href="https://github.com/aubar/My-Reddit-Lite"
+                  href="https://github.com/aubarb/My-Reddit-Lite"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -452,7 +452,7 @@ function App() {
                 </a>
                 <a
                   className="link"
-                  href="https://github.com/aubar/Tenzies"
+                  href="https://github.com/aubarb/Tenzies"
                   target="_blank"
                   rel="noreferrer"
                 >
